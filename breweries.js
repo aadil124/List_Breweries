@@ -18,7 +18,7 @@ const getBreweriesData = async () => {
   let output = "";
   data.map((item) => {
     output += `
-     <div class="col-sm-12 col-md-3 mb-3 mb-sm-3 ">
+     <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-3 ">
      <div class="card mb-3 bg-warning text-black h-100">
     <div class="card-body">
         <h5 class="card-title item1">Name: ${item.name}</h5>
