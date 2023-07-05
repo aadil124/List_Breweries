@@ -28,7 +28,7 @@ const getBreweriesData = async () => {
         <h5 class="card-title item4">State: ${item.state}</h5>
         <h5 class="card-title item4">Country: ${item.country}</h5>
         <h5 class="card-title item4">Phone: ${item.phone}</h5>
-        <a href="${item.website_url}" class="btn btn-outline-success p-2">Website</a>
+        <a href="${item.website_url}" target="_blank" class="btn btn-outline-success p-2">Website</a>
       </div>
     </div>  
      </div>
